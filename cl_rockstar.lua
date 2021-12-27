@@ -9,7 +9,7 @@ slider = menu:AddSlider({ icon = '🎥', label = 'Option', value = 'option', val
 slider:On('select', function(item, value)
     TriggerEvent("nad_rockstar:"..value)
     if Config.enableLogs == true then
-        TriggerServerEvent('nad_rockstar:log', GetPlayerServerId(NetworkGetEntityOwner(PlayerPedId())), value)
+        TriggerServerEvent('nad_rockstar:log', value)
     end
 end)
 
