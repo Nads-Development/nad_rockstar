@@ -1,5 +1,6 @@
 RegisterServerEvent('nad_rockstar:log')
-AddEventHandler('nad_rockstar:log', function(id, option)
+AddEventHandler('nad_rockstar:log', function(option)
+    local id = source
     local date_table = os.date("*t")
     local hour, minute, second = date_table.hour, date_table.min, date_table.sec
     local year, month, day = date_table.year, date_table.month, date_table.day
