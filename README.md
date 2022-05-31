@@ -7,7 +7,7 @@
 <h3 align="center">Rockstar Editor (w/ Logs & UI)</h3>
 
   <p align="center">
-    <a href="https://streamable.com/cah3p3">View Showcase</a>
+    <a href="https://streamable.com/cah3p3" target="_blank">View Showcase</a>
     ·
     <a href="https://github.com/Nads-Development/nad_rockstar/issues">Report Bug</a>
     ·
